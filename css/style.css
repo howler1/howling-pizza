@@ -17,14 +17,6 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	margin-bottom: -75px;
 }
 
-header{
-	background-color: black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 75px;
-}
-
 /* Footer */
 footer{
 	background-color: black;
@@ -53,20 +45,72 @@ footer{
 	color: rgb(218,26,50);
 }
 
+
+/* Header */
+
+header{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 75px;
+}
+
+header .mobileView img{
+	border-radius: 5px;
+}
+
 /* Body */
+
 .banner{
 background-image: url(../images/img_0.jpg);
 background-size: cover;
 height: 85vh;
 }
 
-main .mobileView li {
-	padding: 10px 0px;
+main .mobileView ul li{
+	padding: 8px 0px;
 	text-align: center;
-	margin: 10px 0px;
+	margin: 12px 10px;
 	background-color: rgb(218, 26, 50);
+	border-radius: 5px;
+	
 }
 
-main .mobileView li a {
-	color: white;
+main .mobileView .nav{
+	display: flex;
+	flex-direction: column;
 }
+
+main .mobileView ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: large;
+	font-weight: bold;
+	text-shadow: 5px 3px 2px rgb(122, 77, 82);
+}
+
+main .mobileView .bannerText{
+	display: flex;
+	color: white;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	height: 40vh;
+	text-shadow: 5px 3px 2px rgba(218, 26, 50, 1);
+}
+
+main .mobileView .bannerText h1{
+font-size: 3.5rem;
+margin-bottom: 3vh;
+text-align: center;
+text-transform: capitalize;
+}
+
+main .mobileView .bannerText p{
+	text-align: center;
+	font-size: 2.5rem;
+	text-transform: capitalize;
+}
+
