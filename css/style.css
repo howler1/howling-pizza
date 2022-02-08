@@ -3,3 +3,70 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body{
+height: 100%;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Mobile State */
+
+#mainSection{
+	min-height: 100vh;
+	margin-bottom: -75px;
+}
+
+header{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 75px;
+}
+
+/* Footer */
+footer{
+	background-color: black;
+	height: 75px;
+	color: white;
+}
+
+#footerLeft{
+	display: none;
+}
+
+#footerRight{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 75px;
+}
+
+#footerRight i{
+	font-size: 3em;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+
+#footerRight i:hover{
+	color: rgb(218,26,50);
+}
+
+/* Body */
+.banner{
+background-image: url(../images/img_0.jpg);
+background-size: cover;
+height: 85vh;
+}
+
+main .mobileView li {
+	padding: 10px 0px;
+	text-align: center;
+	margin: 10px 0px;
+	background-color: rgb(218, 26, 50);
+}
+
+main .mobileView li a {
+	color: white;
+}
