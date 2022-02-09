@@ -126,7 +126,7 @@ main .mobileView .bannerText p{
 /* ===================================== */
 
 /* Changing promotion */
-@media screen and (min-width: 400px){
+@media screen and (min-width: 600px){
 /* Desktop View */
 .mobileView{
 	display: none;
